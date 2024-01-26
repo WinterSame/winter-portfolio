@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Magra:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headers{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:55px 70px;
+    height: 30px;
+    font-family: 'Bodoni moda';
+    font-size: 3rem;
+    background-color: #B2D5B6;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e0ded9;
+    font-size: 1.5rem;
+}
+
+nav a{
+    background: #e0ded9;
+    font-family: 'Magra';
+    font-weight: 600;
+    padding: 7px;
+}
+
+nav .nav-links{
+    cursor: pointer;
+}
+
+.nav-links a:hover,
+.nav-links a.selected{
+    color: rgba(1, 1, 69, 0.582);
+    background-color: rgb(215, 218, 222);
+    padding: 7px;
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+}
+
+.hero{
+    height: 100vh;
+}
+
+.hero img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #B2D5B6;
+    object-fit: fill;
+}
+
+.slogan{
+    position: absolute;
+    font-size: 2.8rem;
+    font-family: 'Bodoni moda';
+    left: 49%;
+    bottom: 20%;
+}
+
+.main{
+    padding: 55px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    gap:120px;
+    background-color: #B2D5B6;
+}
+
+.main img{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #c7f3cc;
+}
+
+.main .info{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Noto sans';
+}
+
+.main h2{
+    font-size: 3rem;
+    font-family: 'Petit Formal Script' ;
+}
+
+.recent{
+    padding: 55px 180px;
+    background-color:#cfdbd0;
+    font-family: 'noto sans';
+    border-radius: 10px;
+}
+
+.recent .header{
+    display: flex;
+    justify-content: space-between;  
+    text-align: start;
+}
+
+.recent .header h3{
+    font-size: 20px;
+    font-family: 'noto sans';
+    margin-bottom: 40px;
+}
+
+.recent .posts{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    align-items: centers;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.recent .posts .post-items{
+    background-color:#e0ded9;
+    border-radius: 5px;
+    padding: 40px;
+    width: 460px;   
+}
+
+.recent .posts .post-items .info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.skills-wrapper{
+    padding: 55px 190px;
+    background-color: #B2D5B6;
+}
+
+.skills-wrapper .skills-header{
+    font-family: 'PT Serif Static';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    gap:20px;
+}
+
+
+
+.skills-wrapper .skills-description-wrapper{
+    display: flex;
+    padding-top: 30px;
+    gap: 40px;
+    align-items: center;
+    text-align: justify;
+}
+
+.skills-wrapper .skills-description-wrapper .skills-image{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skills-wrapper .skills-description-wrapper .skills-description{
+    padding: 40px;
+    gap: 10px;
+    background-color: #e0ded9;
+    border-radius: 10px;
+}
+
+.contact-page-wrapper{
+    background-color: #B2D5B6;
+}
+
+.contact-page-wrapper h2{
+    font-size: 2.5rem;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.contact-page-wrapper .socials-links{
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.contact-page-wrapper h4{
+    font-size: 2rem;
+    margin-bottom: 25px;
+    text-align:center;
+}
+
+.footer-links{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-color: rgb(206, 230, 253);
+    width: 100%;
+    font-family: 'Noto sans', serif;
+}
+
+.contact-page-wrapper .footer-links .quick-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 60px;
+    margin-left: 55px;
+    gap: 10px;
+}
+
+.footer-description{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    text-align:end;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.contact-page-wrapper img{
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    justify-content: end;
+}
+
+.contact-page-wrapper .copy{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Noto sans', serif;
+}
+
+hr{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+}
