@@ -471,3 +471,226 @@ hr{
     }
     
 }
+
+@media screen and (max-width: 500px){
+
+    .headers{
+        padding: 30px 30px;
+        font-size: 1.5rem;
+        position: sticky;
+    }
+
+    nav{
+        padding: 10px 30px;
+        justify-content: space-evenly;
+        font-size: 1rem;
+    }
+
+    .slogan{
+        position: absolute;
+        font-size: 1.2rem;
+        font-family: 'Bodoni moda';
+        left: 49%;
+        bottom: 20%;
+    }
+    
+    .main{
+        padding: 40px 30px;
+        gap:120px;
+        flex-direction: column;
+    }
+
+    .main img{
+        width: 300px;
+        height: auto;
+        border-radius: 10%;
+        box-shadow: 0px 0px 5px #c7f3cc;
+    }
+        
+    .main h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .main .info{
+        display: flex;
+        flex-direction: column;
+        gap:60px;
+        justify-content: center;
+        text-align: justify;
+        font-size: 1rem;
+        font-family: 'Noto sans';
+    }
+
+    .recent{
+        padding: 50px 30px;
+    }
+
+    .recent .header {
+        font-size: 0.5rem;
+    }
+
+    .recent .header h3{
+        font-size: 1rem;
+    }
+
+    .recent .posts{
+        display: flex;
+        gap:20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: centers;
+        text-align: justify;
+        margin-bottom: 40px;
+        font-size: 0.7rem;
+    }
+
+    .recent h4{
+        font-size: 0.7rem;
+    }
+    
+    .recent .posts .post-items{
+        background-color:#e0ded9;
+        border-radius: 5px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 300px; 
+        font-size: 0.7rem;  
+    }
+    
+    .recent .posts .post-items .info{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        text-align: justify;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-size: 0.7rem;
+    }
+
+
+
+
+
+
+    .skills-wrapper{
+        padding: 55px 30px;
+    }
+
+
+    .skills-wrapper .skills-header{
+        font-family: 'PT Serif Static';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        gap:20px;
+    }
+    
+    
+    
+    .skills-wrapper .skills-description-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 40px;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    .skills-wrapper .skills-description-wrapper .skills-image{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .skills-wrapper .skills-description-wrapper .skills-description{
+        padding: 40px;
+        gap: 10px;
+        background-color: #e0ded9;
+        border-radius: 10px;
+        font-size: 0.7rem;
+    }
+
+    .contact-page-wrapper{
+        background-color: #B2D5B6;
+    }
+    
+    .contact-page-wrapper h2{
+        font-size: 1.5rem;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+    
+    .contact-page-wrapper .socials-links{
+        font-size: 35px;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    
+    .contact-page-wrapper h4{
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+        text-align:center;
+    }
+    
+    .footer-links{
+        display:grid;
+        grid-template-columns: 50px 200px 50px;
+        background-color: rgb(206, 230, 253);
+        width: 100%;
+        font-size: 0.4rem;
+        font-family: 'Noto sans', serif;
+    }
+    
+    .contact-page-wrapper .footer-links .quick-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* padding-left: 60px;
+        margin-left: 55px;
+        gap: 10px; */
+    }
+    
+    .footer-description{
+        width: 100px;
+        text-align:justify;
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .contact-page-wrapper img{
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        object-fit: contain;
+    }
+    
+    .contact-page-wrapper .copy{
+        text-align: center;
+        padding: 20px;
+        font-family: 'Noto sans', serif;
+    }
+    
+    hr{
+        border: 1px solid black;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+
+
+
+
+
+    
+
+  
+}
