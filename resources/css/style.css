@@ -19,6 +19,13 @@
     font-weight: 300;
 }
 
+.headers .menu-btn i{
+    color: rgb(0, 0, 0);
+    display: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -260,4 +267,207 @@ hr{
     border: 1px solid black;
     width: 80%;
     margin-left: 10%;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 1400px){
+    
+    .headers{
+        padding:40px 60px;
+        font-size: 2.5rem;
+    }
+
+    nav{
+        padding: 15px 40px;
+        justify-content: space-evenly;
+        font-size: 1.4rem;
+    }
+
+    .slogan{
+        position: absolute;
+        font-size: 2.5rem;
+        font-family: 'Bodoni moda';
+        left: 49%;
+        bottom: 20%;
+    }
+    
+    .main{
+        padding: 55px 60px;
+        gap:120px;
+    }
+
+    .main img{
+        width: 380px;
+        height: 480px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 5px #c7f3cc;
+    }
+        
+    .main h2{
+        font-size: 2.8rem;
+    }
+
+    .recent{
+        padding: 55px 60px;
+    }
+
+    .skills-wrapper{
+        padding: 55px 60px;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1200px){
+    
+    .headers{
+        padding:40px 60px;
+        font-size: 2.5rem;
+    }
+
+    nav{
+        padding: 15px 40px;
+        justify-content: space-evenly;
+        font-size: 1.4rem;
+    }
+
+    .slogan{
+        position: absolute;
+        font-size: 2.5rem;
+        font-family: 'Bodoni moda';
+        left: 49%;
+        bottom: 20%;
+    }
+    
+    .main{
+        padding: 55px 60px;
+        gap:120px;
+    }
+
+    .main img{
+        width: 380px;
+        height: 480px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 5px #c7f3cc;
+    }
+        
+    .main h2{
+        font-size: 2.8rem;
+    }
+
+    .recent{
+        padding: 55px 60px;
+    }
+
+    .skills-wrapper{
+        padding: 55px 60px;
+    }
+
+    .contact-page-wrapper .footer-links .quick-links{
+        padding-left: 40px;
+        margin-left: 20px;
+        gap: 5px;
+    }
+
+    
+    .contact-page-wrapper img{
+        height: 130px;
+        padding: 0;
+        margin: 0;
+        object-fit: contain;
+        justify-content: end;
+}
+    
+}
+
+
+@media screen and (max-width: 1100px ){
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    .headers{
+        padding: 35px 60px;
+        font-size: 2rem;
+        position: sticky;
+    }
+
+    nav{
+        padding: 10px 35px;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+    }
+
+    .slogan{
+        position: absolute;
+        font-size: 1.6rem;
+        font-family: 'Bodoni moda';
+        left: 49%;
+        bottom: 20%;
+    }
+    
+    .main{
+        padding: 55px 60px;
+        gap:120px;
+        flex-direction: column;
+    }
+
+    .main img{
+        width: 380px;
+        height: 480px;
+        border-radius: 10%;
+        box-shadow: 0px 0px 5px #c7f3cc;
+    }
+        
+    .main h2{
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .recent{
+        padding: 55px 60px;
+    }
+
+    .skills-wrapper{
+        padding: 55px 60px;
+    }
+    
+
+    .contact-page-wrapper .footer-links .quick-links{
+        padding-left: 10px;
+        margin-left: 20px;
+        gap: 5px;
+    }
+
+    
+    .contact-page-wrapper img{
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        object-fit: contain;
+        justify-content: end;
+}
+
+    .contact-page-wrapper .footer-description{
+            display: flex;
+            justify-content: center;
+            align-items: last baseline;
+            text-align:center;
+            padding-left: 0;
+            margin-right: 100px;
+            margin-bottom: 10px;
+        
+    }
+    
 }
